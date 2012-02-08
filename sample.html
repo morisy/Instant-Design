@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+	<title><?php print $head_title ?></title>
+	<meta http-equiv="content-language" content="<?php print $language->language ?>" />
+	<?php print $meta; ?>
+  <?php print $head; ?>
+  <?php print $styles; ?>
+  <!-- Framework CSS -->
+<!--[if lte IE 7]>
+    <link rel="stylesheet" href="<?php print $path; ?>blueprint/blueprint/ie.css" type="text/css" media="screen, projection">
+  	<link href="<?php print $path; ?>css/ie.css" rel="stylesheet"  type="text/css"  media="screen, projection" />
+  <![endif]-->  
+  <!--[if lte IE 6]>
+  	<link href="<?php print $path; ?>css/ie6.css" rel="stylesheet"  type="text/css"  media="screen, projection" />
+  <![endif]-->
+
+	<style type="text/css" media="screen">
+
+	/* POSH HTML button CSS
+	---------------------------------------*/
+
+	.posh-badge{
+	font-size:0.625em;
+	font-style:normal;
+	font-family:arial,sans-serif;
+	letter-spacing:0.1em;
+	text-shadow:0 0 #000;
+	text-align: center;
+	color:#eed;
+	padding:0 0.3em 0 0;
+	background:#777;
+	border: 0.1em solid #222;
+	}
+	.posh-badge span{
+	letter-spacing:0;
+	color:#fff;
+	padding:0 0.2em;
+	margin-right:0.1em;
+	background:#000;
+	border-right:0.1em solid #222;
+	}
+	.posh-badge abbr{
+	border:0;
+	}
+	.posh-badge a:link,
+	.posh-badge a:visited{
+	color:#fff;
+	text-decoration:none;
+	}
+	.posh-badge a:focus,
+	.posh-badge a:hover,
+	.posh-badge a:active{
+	color:#360;
+	}
+	.posh-badge span a:hover{
+	color:#fff;
+	}
+
+	</style>
+
+
+</head>
+
+<body>
+
+	<div class="container">  
+		<hr>
+		<a href="#"><img src="charles3.JPG" class="" alt="test"></a>
+		<h1><a title="<?php print $site_name; ?>" href="<?php print url(); ?>"><?php print $site_name; ?>:</a> <small class="alt"><?php if ($site_slogan != '') print $site_slogan; ?>
+	    </small></h1>
+		<hr>
+	    <div class="span-24 last">
+
+
+
+			<?php print $header; ?>
+
+
+		    <div class="span-24 last">
+
+		<div class="span-6">
+			<a href="#"><img src="instant.jpg" class="" alt="test"></a>
+			
+			<div class="span-5 box back">
+			  <h6>Instant History</h6>
+			  <p> My long-running blog on technology, news media, journalism, social networking and more, in a new, reduced-fat format. Here are some recent posts:
+				<ul>
+					<li><a href="#">Social Networking what?</a></li>
+					<li><a href="#">Yahoo Pipes getting cleaned out</a></li>
+					<li><a href="#">I'm madly in love with Kristen Caretta</a></li>
+				</ul>
+				Or you can also browse through some popular categories, like <a href="#">Category A</a>, <a href="#">Category 2</a>, or <a href="#">Category III</a>, or <a href="search">search for something</a> in particular.
+				
+				</p>				
+			</div>
+			<em class="posh-badge">
+			    <a href="#" title="Discover more about plain old semantic HTML.">
+			        <span title="Equivalent to:">37% of visitors</span> 
+			        <abbr title="Plain old semantic HTML">click in this column somewhere.</abbr>
+			    </a>
+			</em>
+			<br/>
+		</div>
+
+			<div class="span-6">
+				<a href="#"><img src="dust.jpg" class="" alt="test"></a>
+				
+				<div class="span-5 box back">
+				  <h6>More Writing</h6>
+				  <p> In addition to my Instant History blog, my writing can also be found in a variety of venues. I'm a news writer at <a href="http://www.techtarget.com">TechTarget</a>, and you can read my recent news articles, or read just my telecom stories, my unified communications stories, or my wide area network (WAN) stories. I've also written numerous editorials for the New York Daily News, including this piece which won the Pulitzer Prize as part of a series.</p>				
+				</div>
+				<em class="posh-badge">
+				    <a href="#" title="Discover more about plain old semantic HTML.">
+				        <span title="Equivalent to:">22% of visitors</span> 
+				        <abbr title="Plain old semantic HTML">click in this column somewhere.</abbr>
+				    </a>
+				</em>
+			</div>
+		
+				<div class="span-6">
+					<a href="#"><img src="aboutme.jpg" class="" alt="test"></a>
+				
+					<div class="span-5 box back">
+					  <h6>About Me</h6>
+					  <p>I'm a professional journalist with multimedia, web design, and other new-fangled skills. If you'd like to know more, you can connect with me via social media, o
+						</p>				
+					</div>
+						<em class="posh-badge">
+						    <a href="#" title="Discover more about plain old semantic HTML.">
+						        <span title="Equivalent to:">30% of visitors</span> 
+						        <abbr title="Plain old semantic HTML">click in this column somewhere.</abbr>
+						    </a>
+						</em>
+					</div>
+					<div class="span-5 last">
+
+						  <?php print $welcome_nobox; ?>
+						
+				</div>
+			    <div class="span-24 last">
+
+
+
+					<?php print $footer; ?>
+
+
+				    <div class="span-24 last">
+
+
+
+						<hr>
+						<h5 class="quiet alt" align=center>comments &copy; the poster. all else &copy; Michael Morisy or as attributed.
+						<br>Please request permission for more than fair usage.</h5>
+						<hr>
+
+
+					</div>
+
+				</body>
+				</html>

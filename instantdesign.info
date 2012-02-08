@@ -1,0 +1,29 @@
+name = instantdesign
+description = The design of instant history, based on blueprintcss.
+version = VERSION
+core = 6.x
+base theme = blueprint
+stylesheets[all][] = instantdesign.css
+
+; Information added by drupal.org packaging script on 2009-05-13
+version = "6.12"
+project = "drupal"
+datestamp = "1242243950"
+
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+regions[content] = Content
+regions[header] = Header
+regions[footer] = Footer
+regions[logopromo] = Promo that goes to the right of the logo
+
+
+regions[content_header] = Content Header
+regions[welcome_left] = Welcome Column Left
+regions[welcome_middle] = Welcome Column Middle
+regions[welcome_right] = Welcome Column Right
+regions[welcome_nobox] = Welcome Column Text Area
+regions[topstory] = Welcome Top Story
+regions[fronttabs] = Tabs on the front page
+
+
